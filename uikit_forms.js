@@ -21,9 +21,8 @@
                 },
                 icon: '', string (icon class),
                 vertical: //boolen (defaults to false option to add breaks between checkbox and radios in group)
-
             },
-            choices: ,//required for radio_group, checkbox_group and select types: array {html_value: choice_display_text} or [choice_display_text] (value will be array index),
+            choices: ,//required for radio_group, checkbox_group and select types: match format of feild array for each individual check or radio
         },
     }
 ****************** */
